@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .form-page {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex: 1 3 1;
+
+        place-items: center;
+      }
+
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      .uname,
+      .pass {
+        width: 50%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+        margin-bottom: 12px;
+        background-color: rgb(245, 213, 213);
+        border-radius: 9px;
+        border-width: 1px;
+        padding-left: 9px;
+      }
+
+      .lgb {
+        margin-top: 5px;
+        width: 50%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        margin-bottom: 10px;
+        background-color: rgb(25, 25, 255);
+        border-radius: 8px;
+        border: none;
+        font-weight: bold;
+        font-size: 14px;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form-page">
+      <div></div>
+      <div>
+        <h1>Welcome back.</h1>
+        <p>Login to you account</p>
+        <input class="uname" type="text" placeholder="username" />
+        <input class="pass" type="password" placeholder="password" />
+        <button class="lgb">Login</button>
+      </div>
+      <div>
+        <div style="background-color: aqua"></div>
+      </div>
+    </div>
+  </body>
+</html>
